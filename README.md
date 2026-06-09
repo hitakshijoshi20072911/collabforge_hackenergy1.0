@@ -1,8 +1,15 @@
 # CollabForge - Hackathons & Innovation Hub
 
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=for-the-badge&logo=vite)
+![Accessibility](https://img.shields.io/badge/WCAG-AA_Compliant-success?style=for-the-badge)
+![Real Time](https://img.shields.io/badge/Real--Time-Collaboration-blueviolet?style=for-the-badge)
+
 A comprehensive, accessible, and cinematic web application for organizing and participating in hackathons and innovation challenges. Built with React, TypeScript, Tailwind CSS, and designed with WCAG accessibility standards in mind.
 
-## 🌟 Features
+##  Features
 
 ### For Participants
 - **Browse Events**: Discover hackathons with advanced search and filtering
@@ -21,7 +28,7 @@ A comprehensive, accessible, and cinematic web application for organizing and pa
 - **Analytics**: Monitor engagement and participant metrics
 - **Announcements**: Communicate with participants
 
-## 🎨 Design System
+##  Design System
 
 ### Visual Theme
 - **Glassmorphism**: Frosted glass cards with backdrop blur
@@ -38,7 +45,7 @@ A comprehensive, accessible, and cinematic web application for organizing and pa
 - Skip to main content link
 - Accessibility toolbar (high contrast, reduce motion, larger text)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -142,7 +149,7 @@ For real-time features, implement WebSocket at `/ws`:
 2. Remove mock implementations
 3. Test each endpoint
 
-## 🎭 Role-Based Access
+##  Role-Based Access
 
 The app supports three roles:
 
@@ -154,7 +161,7 @@ The app supports three roles:
 
 Use the Auth page to quickly switch between roles for testing.
 
-## 🧪 Testing
+##  Testing
 
 ### Accessibility Testing
 
@@ -174,7 +181,7 @@ Test major flows using only keyboard:
 - Press Enter/Space to activate buttons
 - Navigate forms with Tab and Shift+Tab
 
-## 🌐 Deployment
+##  Deployment
 
 ### Frontend (Vercel/Netlify)
 
@@ -196,7 +203,7 @@ Test major flows using only keyboard:
    - `S3_BUCKET`, `S3_REGION`, `S3_ACCESS_KEY`, `S3_SECRET_KEY`
    - `SENDGRID_API_KEY` (for emails)
 
-## 📦 Key Technologies
+##  Key Technologies
 
 - **React 18** - UI framework
 - **TypeScript** - Type safety
@@ -209,7 +216,7 @@ Test major flows using only keyboard:
 - **date-fns** - Date formatting
 - **Axios** - HTTP client
 
-## 🎨 Design Tokens
+##  Design Tokens
 
 All design tokens are defined in `src/index.css`:
 
@@ -231,7 +238,7 @@ All design tokens are defined in `src/index.css`:
 --duration-normal: 250ms;
 ```
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 ### Production Checklist
 - [ ] Enable HTTPS
@@ -244,17 +251,6 @@ All design tokens are defined in `src/index.css`:
 - [ ] Implement CSRF protection
 - [ ] Set security headers
 
-## 📄 License
-
-MIT License - feel free to use this project for your hackathon platform!
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our contributing guidelines and code of conduct.
-
-## 📞 Support
-
-For questions or issues, please open a GitHub issue or contact hello@collabforge.dev
 
 ---
 
